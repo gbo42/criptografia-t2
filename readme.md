@@ -26,16 +26,21 @@
  - primeira versão do código, foi muito lento, por isso refeito em Crystal
 
 ### textos (diretório):
- - *cifrado*: texto padrão a ser decifrado
- - *claro*: texto claro padrão
+ - *cifrado*: texto teste a ser decifrado
+ - *claro*: texto claro de teste
 
 ### utils (diretório):
  - *cifrador.py*: código em Python para cifrar textos
+ - *decifrador.py*: código em Python para decifrar textos
+ - *playfair.py*: funções básicas para a cifra Playfair
  - *clean_dict*: lista de palavras pt_BR sem caracteres especiais
  - *generators.py*: códigos para limpar dicionário e gerar listas de chaves
 
 ### *quebra-pf.cr*:
  - código principal
+
+### *quebra.sh*:
+ - script que gera arquivos com os textos abertos pelas chaves em potencial
 
 ## Recursos Utilizados:
  -  [Python](https://www.python.org/)

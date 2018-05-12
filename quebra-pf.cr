@@ -138,5 +138,9 @@ end
 # fim loop principal (executa para cada chave)
 
 # impressão das chaves encontradas
-puts myarr
+myarr.each do |key|
+    print " " + key[1]
+end
+
+puts ""
 # fim impressão das chaves encontradas
