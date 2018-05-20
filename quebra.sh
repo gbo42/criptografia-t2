@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Testando chaves... "
-keys="$(quebra-pf -d utils/clean_dict -t $1)"
+keys="$(./quebra-pf -d keys/keysDict -t $1)"
 
 echo "Chaves possíveis:$keys"
 
